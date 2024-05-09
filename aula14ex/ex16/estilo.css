@@ -1,0 +1,52 @@
+body {
+    background: rgb(70,142, 236);
+    font: normal 16pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 80px 00px 50px 0px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 32px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+}
+
+#dados {
+    margin: 16px auto;
+    width: 54%;
+}
+
+span {
+    width: 80px;
+    display: inline-block;
+    }
+
+input {
+    margin-bottom: 32px;
+    padding: 4pt;
+    text-align: center;
+}
+
+#resp {
+    font-size: 12pt;
+    text-align: center;
+}
+
+input#botãoContar {
+    font: normal 16pt Arial;
+    padding: 12px 100px 12px 100px;
+    margin: 32px 00px 32px 00px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

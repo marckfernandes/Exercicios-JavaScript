@@ -1,0 +1,15 @@
+Condições:
+
+OK - Adicionar números de 1 a 100
+OK - mostrar os valores adicionados
+OK - não pode adicionar um valor já adicionado
+OK - não pode valores acima ou abaixo (1 a 100)
+OK - não pode deixar o input vazio
+OK - Ao finalizar:
+   OK - Ao todo, temos (x) números cadastrados.
+   OK - O maior valor informado foi 9.
+   OK - O menor valor informado foi 1.
+   OK - Somando todos os valores, temos 25.
+   OK - A média dos valores digitados é 5.
+OK - se um novo número for adicionado, reinicia o resultado de finalizar, e finalizar precisará ser executada novamente.
+OK - não há limite de valores a serem adicionados

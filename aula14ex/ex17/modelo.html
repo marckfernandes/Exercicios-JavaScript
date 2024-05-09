@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <label for="txtnum">Número: </label> <input type="number" name="txtnum" id="txtnum" onchange="reiniciar(tabuada)" onkeydown="reiniciar(tabuada)"> <input type="button" value="Gerar Tabuada" id="botãoMulti" onclick="verificar()">
+        </div>
+        <div id="res">
+            <select name="tabuada" id="tabuada" size="10">
+                <option id="x0">Digite um número acima e em seguida clique em 'Gerar Tabuada'.</option>
+            </select>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background: rgb(70,142, 236);
+    font: normal 14pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 80px 0px 50px 0px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 32px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);
+}
+
+div#dados {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+label {
+    padding-top: 4px;
+}
+
+input {
+    margin-bottom: 32px;
+    padding: 5px;
+    text-align: center;
+}
+
+input#botãoMulti {
+    font: normal 14pt Arial;
+    padding: 5px 32px 5px 32px;
+    margin: 0px 0px 32px 0px;
+}
+
+div#res {
+    text-align: center;
+}
+
+select#tabuada {
+    width: 500px;
+    padding: 16px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
